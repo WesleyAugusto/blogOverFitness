@@ -80,9 +80,7 @@ h3{
 .imagem-meio{
     grid-area: imagem-meio;
     display: flex;
-    margin-left: 350px;
-    
-    
+    margin-left: 350px;  
 }
 @media (max-width: 1200px){
 
