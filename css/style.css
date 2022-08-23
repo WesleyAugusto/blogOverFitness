@@ -39,12 +39,16 @@ h3{
 }
 .header{
     grid-area: header;
+    background-color: var(--color-primary); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 .headline{
     grid-area: headline ;
-    
+    background-color: url(/images/image-fundo-bg.png);
 }
 
 .info{
