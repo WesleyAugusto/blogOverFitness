@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
 :root{
 --color-primary: #D1D1D1;
 --color-secundary: #9E9292;
 --color-backgroud: #000;
 --color-backgourd-secundary:#BDBDBD;
 }
+
 body,input,select {
 font-family: 'Archivo', sans-serif;
 }
@@ -16,7 +18,7 @@ h1{
     position: absolute;
     width: 1364px;
     height: 1500px;
-    left: 325px;
+    left: center;
     color: #9E9292;
     top: 337px;
     font-family: 'Inter';
@@ -25,14 +27,13 @@ h1{
 }
 
 h2{
-    font-size: 40px;
-    
+    font-size: 40px; 
 }
 
 h3{
-    font-size: 30px;
-    
+    font-size: 30px; 
 }
+
 .structure{
     display: grid;
     grid-template-areas: 
@@ -40,18 +41,19 @@ h3{
     "headline"
     "fotop"
     "frase4"
-    "infoFooter"
-    "footer"
-    ".frase3"
+    "feature"
+    "reticence"
+    "frase3"
     ;
 }
+
 .header{
     grid-area: header;
     background-color: var(--color-primary); 
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
+
 .header .logo2{
     grid-area: logo2;
     display: flex;
@@ -61,29 +63,29 @@ h3{
     flex-direction: column;
     width: 850px;
 }
+
 .header .logo2 .menu{
     margin-left: auto;
-    
 }
 
 .headline{
     grid-area: headline ;
     background-color: #000;
 }
+
 .imagem-meio{
     grid-area: imagem-meio;
     display: flex; 
     justify-content: center; 
 }
+
 .seta{
     position: absolute;
-    width: 331px;
-    height: 18px;
-    left: 1000px;
+    left: center;
     top: 1132px;
     filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
-    transform: rotate(89.1deg);
 }
+
 .frase3{
     grid-area: frase3 ;
     position: absolute;
@@ -91,34 +93,62 @@ h3{
     border: 2px solid #FFFFFF;
     border-radius: 25px;
     width: 1018px;
-    height: 440px;
-    left: 425px;
+    height: 320px;
+    left:center;
     top: 1350px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
     line-height: 77px;
-    text-align: center;
-      
+    text-align: center;  
 }
+
 .fotoP{
     grid-area: fotoP ;
     position: absolute;
-width: 980px;
-height: 611px;
-left: 425px;
-top: 1811px;
-border-radius: 200px
-
+    left: center;
+    top: 1811px;
+    border-radius: 200px
 }
+
 .frase4{
     grid-area: frase4 ;
     position: absolute;
-width: 814px;
-height: 156px;
-left: 291px;
-top: 2568px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    width: 814px;
+    height: 156px;
+    left: center;
+    top: 2568px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.reticence{
+    grid-area: reticence;
+    position: absolute;
+left: center;
+top: 2770px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.feature {
+    grid-area: feature;
+    position: absolute;
+left: center;
+top: 2770px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -127,29 +157,29 @@ line-height: 77px;
 text-align: center;
 color: #FFFFFF;
 
+}
+
+.card div {
+    flex-direction: row;
+    position: absolute;
 
 }
 
 .info{
-    grid-area: info;
-    
+    grid-area: info; 
 }
 
 .content{
-    grid-area: content;
-    
+    grid-area: content; 
 }
 
 .infoFooter{
     grid-area: infoFooter;
-    
 }
 
 .footer{
-    grid-area: footer;
-    
+    grid-area: footer; 
 }
-
 
 @media (max-width: 1200px){
 
