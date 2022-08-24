@@ -33,6 +33,24 @@ h3{
     font-size: 30px;
     
 }
+.frase3{
+    position: absolute;
+   
+    color: #9E9292;
+
+
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+}
+
+
 .structure{
     display: grid;
     grid-template-areas: 
