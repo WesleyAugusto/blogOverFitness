@@ -33,33 +33,16 @@ h3{
     font-size: 30px;
     
 }
-.frase3{
-    position: absolute;
-   
-    color: #9E9292;
-
-
-
-
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 77px;
-text-align: center;
-}
-
-
 .structure{
     display: grid;
     grid-template-areas: 
     "header"
     "headline"
-    "info"
-    "content"
+    "fotop"
+    "frase4"
     "infoFooter"
     "footer"
+    ".frase3"
     ;
 }
 .header{
@@ -100,6 +83,51 @@ text-align: center;
     top: 1132px;
     filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
     transform: rotate(89.1deg);
+}
+.frase3{
+    grid-area: frase3 ;
+    position: absolute;
+    color: var(--color-primary);
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    width: 1018px;
+    height: 440px;
+    left: 425px;
+    top: 1350px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+      
+}
+.fotoP{
+    grid-area: fotoP ;
+    position: absolute;
+width: 980px;
+height: 611px;
+left: 425px;
+top: 1811px;
+border-radius: 200px
+
+}
+.frase4{
+    grid-area: frase4 ;
+    position: absolute;
+width: 814px;
+height: 156px;
+left: 291px;
+top: 2568px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+color: #FFFFFF;
+
+
 }
 
 .info{
