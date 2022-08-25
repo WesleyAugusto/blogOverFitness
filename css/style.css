@@ -46,6 +46,7 @@ h3{
     "reticence"
     "frase3"
     "destaques1"
+    "destaques"
     ;
 }
 
@@ -162,26 +163,31 @@ color: #FFFFFF;
 
 .feature {
     position:absolute;
-    flex-direction: row;
+    flex-direction:column;
 width: 200px;
 height: 39px;
 margin-top:2800px;
+display: flex;
 
 }
-.destaques div {
-    position: absolute;
-   
+.destaques {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    
 }
 .destaques1{
-    grid-area: destaques1 ;
-    position:absolute;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
     
-width: 200px;
-height: 39px;
-margin-bottom:autopx;
-
-
+    margin: 10px;
+    position: relative;
+    text-align: center;
 }
+.destaques1 img{
+    padding: 10px;
+}
+
 
 .info{
     grid-area: info; 
