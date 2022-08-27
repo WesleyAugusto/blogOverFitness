@@ -164,17 +164,16 @@ color: #FFFFFF;
 .feature {
     position:absolute;
     flex-direction:column;
-width: 200px;
-height: 39px;
-margin-top:2800px;
-display: flex;
-
+    text-align: center;
+    margin-top:2800px;
+    display: flex;
 }
 .destaques {
     display: flex;
     justify-content: center;
     padding-top: 25px;
-    
+    width: 100%;
+    left: auto;
 }
 .destaques1{
     border: 2px solid #FFFFFF;
@@ -188,9 +187,43 @@ display: flex;
     padding: 10px;
 }
 
+.barra{
+    flex-direction:row;
+    display: flex;
+    padding-top: 35px;
+    justify-content:left; 
+    width: auto;
+    height: auto;
+position: relative;
 
-.info{
-    grid-area: info; 
+
+border-radius: 35px;
+}
+.barra2{
+    display: flex;
+    padding-top: 1px;
+    margin-bottom: 13px;
+    justify-content:left; 
+    left: 0;
+    
+    width: 80%;
+position: relative;
+
+
+background: #9E9292;
+border-radius: 35px;
+}
+
+.barra3{
+    display: flex;
+    padding-top: 35px;
+    justify-content:right; 
+    right: 0;
+    width: 20%;
+position: relative;
+
+
+border-radius: 35px;
 }
 
 .content{
