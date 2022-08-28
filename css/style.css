@@ -82,7 +82,7 @@ a{
     grid-area: headline ;
     background: #000000;
     width: 1900px;
-    height: 3945px;
+    height: 3500px;
     
     
 }
@@ -226,16 +226,37 @@ position: relative;
 border-radius: 35px;
 }
 
-.content{
-    grid-area: content; 
-}
-
-.infoFooter{
-    grid-area: infoFooter;
-}
-
 .footer{
-    grid-area: footer; 
+    padding: 20px 20px;
+
+    background-color: #9E9292;
+   
+
+    
+}
+.teste{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+   
+    
+}
+.teste div{
+    padding: 10px 20px 20px;
+}
+
+.teste p{
+   margin-left: 220px;
+   margin-top: 10px;
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 77px;
+}
+.footerimg{
+    display: flex;
+    flex-direction: row;
 }
 
 @media (max-width: 1200px){
