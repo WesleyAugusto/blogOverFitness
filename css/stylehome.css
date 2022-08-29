@@ -94,14 +94,32 @@ a{
 
 .seta{
     position: absolute;
-    left: center;
-    top: 1132px;
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    top: 650px;
     filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
 }
 .seta img{
     cursor: pointer;
 }
-
+.post{
+    position: absolute;
+    width: 100%;
+    top: 1250px;
+    display: flex;
+    justify-content: center;
+}
+.post p{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-align: center;
+    color: #6e6d6d;
+    padding: 20px 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 72px;
+}
 .frase3{
     grid-area: frase3 ;
     position: absolute;
