@@ -15,10 +15,12 @@ font-family: 'Archivo', sans-serif;
 }
 
 h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
     position: absolute;
     width: 100%;
     text-align: center;
-    color: #9E9292;
+    color: #6e6d6d;
     top: 337px;
     font-family: 'Inter';
     font-style: normal;
@@ -71,6 +73,8 @@ h3{
 }
 
 a{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
     font-family: 'Inter';
     font-style: normal;
     font-size: 35px;
@@ -167,15 +171,15 @@ a{
 .reticence{
     grid-area: reticence;
     position: absolute;
-left: center;
-top: 2770px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 77px;
-text-align: center;
-color: #FFFFFF;
+    left: center;
+    top: 2770px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .feature {
@@ -211,10 +215,8 @@ color: #FFFFFF;
     justify-content:left; 
     width: auto;
     height: auto;
-position: relative;
-
-
-border-radius: 35px;
+    Position: relative;
+    border-radius: 35px;
 }
 .barra2{
     display: flex;
@@ -222,13 +224,10 @@ border-radius: 35px;
     margin-bottom: 13px;
     justify-content:left; 
     left: 0;
-    
     width: 80%;
-position: relative;
-
-
-background: #9E9292;
-border-radius: 35px;
+    position: relative;
+    background: #9E9292;
+    border-radius: 35px;
 }
 
 .barra3{
@@ -237,20 +236,15 @@ border-radius: 35px;
     justify-content:right; 
     right: 0;
     width: 20%;
-position: relative;
-
-
-border-radius: 35px;
+    position: relative;
+    border-radius: 35px;
 }
 
 .footer{
     padding: 20px 20px;
-
     background-color: #9E9292;
-   
-
-    
 }
+
 .teste{
     display: flex;
     justify-content: space-between;
@@ -266,10 +260,10 @@ border-radius: 35px;
    margin-left: 220px;
    margin-top: 10px;
    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 77px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 77px;
 }
 .footerimg{
     display: flex;
