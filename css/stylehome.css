@@ -119,10 +119,41 @@ a{
     -webkit-text-stroke-color: white;
     text-align: center;
     color: #6e6d6d;
-    padding: 20px 10px;
+    padding: 35px 10px;
     font-family: 'Inter';
     font-style: normal;
-    font-size: 72px;
+    font-size: 48px;
+}
+.buscar{
+    box-sizing: border-box;
+    align-items: center;
+    position: absolute;
+    width: 755px;
+    height: 69px;
+    left: 550px;
+    top: 1450px;
+    padding: 5px 5px;
+    border: 6px solid #FFF5F5;
+    border-radius: 30px;
+}
+.buscar p{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 320px;
+    top: 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    opacity: 35%;
+font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+   
+
+
+
 }
 .frase3{
     grid-area: frase3 ;
