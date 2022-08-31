@@ -217,7 +217,7 @@ font-family: 'Inter';
     position:absolute;
     flex-direction:column;
     text-align: center;
-    margin-top:2800px;
+    margin-top:1500px;
     display: flex;
 }
 .destaques {
@@ -270,6 +270,37 @@ font-family: 'Inter';
     position: relative;
     border-radius: 35px;
 }
+
+
+.recentes  {
+    position: absolute;
+    display: flex;
+    
+
+
+top: 2300px;
+}
+
+.texto p {
+    position: absolute;
+   text-align: center;
+   left: 300px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 41px;
+
+color: #D1D1D1;
+
+}
+
+.recentes img{
+    padding: 25px;
+    align-items: center;
+}
+
+
 
 .footer{
     padding: 20px 20px;
