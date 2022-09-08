@@ -222,11 +222,11 @@ font-family: 'Inter';
     display: flex;
 }
 .destaques {
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
-    width: 100%;
-    left: auto;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+ grid-gap: 20px;
+    overflow-x: auto;
+    width: 1300px;
 }
 .destaques1{
     border: 2px solid #FFFFFF;
