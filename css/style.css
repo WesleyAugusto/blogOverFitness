@@ -7,7 +7,7 @@
 --color-primary: #D1D1D1;
 --color-secundary: #9E9292;
 --color-backgroud: #000;
---color-backgourd-secundary:#BDBDBD;
+--color-backgourd-secondary:#BDBDBD;
 }
 
 body,input,select {
@@ -32,6 +32,20 @@ h2{
 
 h3{
     font-size: 30px; 
+}
+
+::-webkit-scrollbar-track{
+    background-color: #000000;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:var(--color-primary);
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 2px hsla(0,0,100%, lightness, alpha);
 }
 
 .structure{
@@ -168,11 +182,15 @@ color: #FFFFFF;
     display: flex;
 }
 .destaques {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+ grid-gap: 20px;
+    overflow-x: auto;
+    width: 1000px;
     justify-content: center;
     padding-top: 25px;
-    width: 100%;
-    left: auto;
+    padding-bottom: 25px
+  
 }
 .destaques1{
     border: 2px solid #FFFFFF;
